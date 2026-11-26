@@ -1,0 +1,251 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dharun | Developer Portfolio</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-slate-950 text-white">
+
+    <!-- Sticky Navigation -->
+    <header class="sticky top-0 z-50 bg-slate-950/90 backdrop-blur border-b border-slate-800">
+        <nav class="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
+
+            <h1 class="text-2xl font-bold text-blue-400">
+                Dharun.
+            </h1>
+
+            <div class="hidden md:flex gap-8 text-gray-300">
+                <a href="#home" class="hover:text-blue-400">Home</a>
+                <a href="#about" class="hover:text-blue-400">About</a>
+                <a href="#skills" class="hover:text-blue-400">Skills</a>
+                <a href="#projects" class="hover:text-blue-400">Projects</a>
+                <a href="#contact" class="hover:text-blue-400">Contact</a>
+            </div>
+
+            <a href="#contact"
+               class="bg-blue-600 px-5 py-2 rounded-lg hover:bg-blue-700">
+                Hire Me
+            </a>
+
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section id="home"
+        class="min-h-[85vh] flex items-center justify-center px-6">
+
+        <div class="max-w-4xl text-center">
+
+            <p class="text-blue-400 mb-4">
+                Hello, I'm
+            </p>
+
+            <h2 class="text-4xl md:text-6xl font-bold mb-6">
+                Dharun Prasath K
+            </h2>
+
+            <h3 class="text-xl md:text-2xl text-gray-400 mb-6">
+                Full Stack Web Developer
+            </h3>
+
+            <p class="text-gray-400 max-w-2xl mx-auto leading-8">
+                A Computer Science and Engineering student interested
+                in building practical applications, exploring new
+                technologies and improving my development skills
+                through hands-on projects.
+            </p>
+
+            <div class="mt-8 flex justify-center gap-4 flex-wrap">
+
+                <a href="#projects"
+                   class="bg-blue-600 px-7 py-3 rounded-lg hover:bg-blue-700">
+                    View My Work
+                </a>
+
+                <a href="#contact"
+                   class="border border-gray-600 px-7 py-3 rounded-lg hover:border-blue-400">
+                    Contact Me
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-6 bg-slate-900">
+
+        <div class="max-w-5xl mx-auto">
+
+            <h2 class="text-3xl font-bold text-center mb-10">
+                About Me
+            </h2>
+
+            <p class="text-gray-400 text-center leading-8 max-w-3xl mx-auto">
+                I'm pursuing Computer Science and Engineering
+                at Sri Sairam Engineering College.
+
+                I'm interested in software development,
+                backend engineering and full stack technologies.
+
+                I enjoy learning by building projects and
+                solving practical problems through code.
+            </p>
+
+        </div>
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 px-6">
+
+        <div class="max-w-6xl mx-auto">
+
+            <h2 class="text-3xl font-bold text-center mb-12">
+                My Technical Skills
+            </h2>
+
+            <!-- Required 3-column grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+                <div class="skill-card">
+                    <h3>Frontend Development</h3>
+                    <p>HTML, CSS, JavaScript, React, Tailwind CSS</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Backend Development</h3>
+                    <p>Java, Spring Boot, Python</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Database & Tools</h3>
+                    <p>PostgreSQL, Git, GitHub, VS Code</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 px-6 bg-slate-900">
+
+        <div class="max-w-6xl mx-auto">
+
+            <h2 class="text-3xl font-bold text-center mb-12">
+                My Projects
+            </h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+                <div class="project-card">
+                    <h3>Touchless AirScroll</h3>
+                    <p>
+                        A hand gesture-based system that allows
+                        users to scroll their screen without
+                        physically touching the device.
+                    </p>
+                    <span>Python · OpenCV</span>
+                </div>
+
+                <div class="project-card">
+                    <h3>StudyMate</h3>
+                    <p>
+                        An educational application concept
+                        designed to generate quizzes and
+                        answers from uploaded study materials.
+                    </p>
+                    <span>React · Java · PostgreSQL</span>
+                </div>
+
+                <div class="project-card">
+                    <h3>AquaGuard Edge</h3>
+                    <p>
+                        An IoT project concept focused on
+                        detecting and locating water leakage
+                        to reduce water wastage.
+                    </p>
+                    <span>IoT · Embedded Systems</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-6">
+
+        <div class="max-w-xl mx-auto">
+
+            <h2 class="text-3xl font-bold text-center mb-4">
+                Get In Touch
+            </h2>
+
+            <p class="text-gray-400 text-center mb-10">
+                Have a project or opportunity? Let's connect.
+            </p>
+
+            <form id="contactForm" class="space-y-5">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Your Name"
+                    required
+                    minlength="2"
+                    class="form-input">
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Your Email"
+                    required
+                    class="form-input">
+
+                <textarea
+                    id="message"
+                    placeholder="Your Message"
+                    required
+                    minlength="10"
+                    rows="5"
+                    class="form-input"></textarea>
+
+                <button type="submit"
+                    class="w-full bg-blue-600 py-3 rounded-lg hover:bg-blue-700">
+                    Send Message
+                </button>
+
+                <p id="formMessage" class="text-center"></p>
+
+            </form>
+
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="text-center py-8 border-t border-slate-800">
+
+        <p class="text-gray-500">
+            © 2026 Dharun Prasath K. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

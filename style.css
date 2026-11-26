@@ -1,0 +1,82 @@
+
+/* Skill cards */
+.skill-card {
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #334155;
+    transition: 0.3s;
+}
+
+.skill-card:hover {
+    transform: translateY(-8px);
+    border-color: #3b82f6;
+}
+
+.skill-card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #60a5fa;
+    margin-bottom: 15px;
+}
+
+.skill-card p {
+    color: #cbd5e1;
+    line-height: 1.8;
+}
+
+
+/* Project cards */
+.project-card {
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #334155;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    border-color: #3b82f6;
+}
+
+.project-card h3 {
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    color: #cbd5e1;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.project-card span {
+    color: #60a5fa;
+    font-size: 14px;
+}
+
+
+/* Contact form */
+.form-input {
+    width: 100%;
+    padding: 15px;
+    background: #1e293b;
+    border: 1px solid #475569;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+}
+
+.form-input:focus {
+    border-color: #3b82f6;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 80px;
+}
